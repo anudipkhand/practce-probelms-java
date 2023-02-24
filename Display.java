@@ -14,7 +14,7 @@ public class Display {
                 System.out.println("hundred");
             case 1000:
                 System.out.println("thousand");
-            default:
+            default: System.out.println("Invalid Input");
         }
     }
 }
